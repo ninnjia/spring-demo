@@ -1,0 +1,44 @@
+{
+  "hello": "the word is hello",
+  "help": "Help",
+  "privacy": "Privacy",
+  "terms": "Terms",
+  "phone-num": "Phone",
+  "email": "Email",
+  "person-login": "Personal login",
+  "login-registry": "Login/Registry",
+  "use-account-login": "Use account login",
+  "modify-password": "Modify password",
+  "next": "Next",
+  "declaration-first": "Computing Everywhere,",
+  "declaration-second": "Connecting All",
+  "phone-format-warning": "Incorrect phone number format!",
+  "phone-necessary-warning": "The phone number cannot be empty!",
+  "email-format-warning": "Incorrect email format!",
+  "email-necessary-warning": "Email address cannot be empty!",
+  "verification-necessary-warning": "The verification code cannot be empty!",
+  "verification-format-warning": "The verification code format is incorrect!",
+  "old-password-necessary-warning": "The old password cannot be empty",
+  "old-password-format-warning": "The old password was not formatted correctly",
+  "new-password-necessary-warning": "The new password cannot be empty",
+  "new-password-format-warning": "The new password was not formatted correctly",
+  "confirm-password-necessary-warning": "The confirm password cannot be empty",
+  "confirm-password-format-warning": "The confirm password was not formatted correctly",
+  "two-password-not-match": "The two passwords do not match",
+
+
+  "complete-password": "Completion password",
+  "modify-password": "Password modify",
+  "new-password":"New password",
+  "old-password":"Old password",
+  "confirm-password":"Confirm password",
+  "back":"back",
+  "modify":"modify",
+  "skip":"skip",
+  "confirm":"confirm",
+
+
+  "send-verify-code":"Send code",
+  "verify-code":"Verification code"
+
+}

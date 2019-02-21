@@ -1,0 +1,24 @@
+<mat-card class="approvals-card">
+  <div class="card-title">
+    <h4 mat-line>Approvals</h4>
+    <p mat-line>{{approvalMain.itemsNum}} items</p>
+  </div>
+  <div class="card-item">
+    <mat-list>
+      <mat-grid-list [cols]="(isHandset$ | async) ? '1' : '2'" rowHeight="80px">
+        <mat-grid-tile
+          colspan=1
+          rowspan=1
+          *ngFor="let item of approvalMain.approvals"
+        >
+          <mat-list-item>
+            <img matListAvatar [src]="item.photoArr" alt="...">
+            <h4 mat-line>{{item.title}}</h4>
+            <p mat-line>{{item.description}}</p>
+            <p mat-line>{{item.date}}</p>
+          </mat-list-item>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-list>
+  </div>
+</mat-card>

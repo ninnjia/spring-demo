@@ -1,0 +1,18 @@
+<script src="../../../services/main.service.ts"></script>
+<mat-card class="briefing-card">
+  <div class="card-title">
+    <mat-card-header>
+      <div mat-card-avatar class="briefing-title-img"></div>
+      <mat-card-title>Your briefing</mat-card-title>
+      <mat-card-subtitle>{{briefingMain.briefingsNum}} new</mat-card-subtitle>
+    </mat-card-header>
+  </div>
+  <div class="card-item">
+    <mat-list>
+      <mat-list-item *ngFor="let item of briefingMain.briefings">
+        <h4 mat-line>{{item.title}}</h4>
+        <p mat-line>{{item.date}},{{item.name}}</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</mat-card>

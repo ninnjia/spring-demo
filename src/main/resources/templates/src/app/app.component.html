@@ -1,0 +1,94 @@
+<mat-sidenav-container class="sidenav-container"
+                       autosize
+                       style="position: static"
+>
+  <mat-sidenav #drawer class="side-sidenav"
+               [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+               [mode]="(isHandset$ | async) ? 'over' : 'side'"
+               [opened]="!(isHandset$ | async)"
+               [ngStyle]="{'width':(isHandset$ | async) ? '80%' : '400px'}"
+               (openedChange)="openedChange()"
+               (closedStart)="closedStart()"
+               (onPositionChanged)="onPositionChanged()"
+               (openedStart)="openedStart()"
+
+
+  >
+    <div class="main-color">
+      <div class="left-header">
+        <img [src]=headerImgPath width="50%" alt="">
+        <div class="left-header-right">
+          <i class="material-icons" style="font-size: 70px;color: #dddddd" (click)="drawer.toggle()">
+            keyboard_arrow_left
+          </i>
+        </div>
+      </div>
+      <app-account [activeAccount]="accountSelected$ | async" [accounts]="accountsState$ | async"></app-account>
+    </div>
+    <mat-tab-group [selectedIndex]="tabChoiceNum" class="main-color">
+      <mat-tab label="items">
+        <ng-template mat-tab-label>
+          <i class="material-icons" style="font-size: 30px;color: white">
+            apps
+          </i>
+        </ng-template>
+        <app-items [items]="currentMannerItemsState$ | async"></app-items>
+      </mat-tab>
+      <mat-tab label="messages">
+        <ng-template mat-tab-label>
+          <i class="material-icons" style="font-size: 30px;color: white">
+            chat_bubble
+          </i>
+        </ng-template>
+        <app-messages [messages]="currentMannerMessagesState$ | async"></app-messages>
+      </mat-tab>
+      <mat-tab label="friends">
+        <ng-template mat-tab-label>
+          <i class="material-icons" style="font-size: 30px;color: white">
+            group
+          </i>
+        </ng-template>
+        <app-friends [friends]="currentMannerFriendsState$ | async"></app-friends>
+      </mat-tab>
+    </mat-tab-group>
+    <button mat-fab color="warn" class="add-more">
+    <i class="material-icons">
+    add
+    </i>
+    </button>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="right-content" style="position: static">
+    <i class="material-icons mobile-strip"
+       *ngIf="isHandset$ | async"
+       style="left: -15px;top: 10px;position: absolute;height: 90%;"
+       (swipeleft)="swipe($event.type)"
+       (swiperight)="swipe($event.type)"
+    >
+      dehaze
+    </i>
+    <div class="strip main-color" style="position: static" *ngIf="!(isHandset$ | async) && !isOpen"
+    >
+      <div class="main-color">
+
+        <i class="common-icon material-icons" style="font-size: 25px;color: white;margin-left: -55px;"
+           (click)="drawer.toggle()">
+          dehaze
+        </i>
+        <i class="common-icon "><img src="../assets/images/ani_logo_transparent.svg" width="35" alt=""></i>
+        <i class="common-icon material-icons" style="font-size: 25px;color: white" (click)="openItems()">
+          apps
+        </i>
+        <i class="common-icon material-icons" style="font-size: 25px;color: white" (click)="openMessages()">
+          chat_bubble
+        </i>
+        <i class="common-icon material-icons" style="font-size: 25px;color: white" (click)="openFriends()">
+          group
+        </i>
+      </div>
+    </div>
+    <div style="width: 100%">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

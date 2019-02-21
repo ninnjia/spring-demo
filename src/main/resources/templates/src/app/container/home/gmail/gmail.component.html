@@ -1,0 +1,18 @@
+<mat-card class="gmail-card">
+  <div class="card-title">
+    <mat-card-header>
+      <div mat-card-avatar class="gmail-title-img"></div>
+      <mat-card-title>Gmail at Ani.cloud</mat-card-title>
+      <mat-card-subtitle>{{gmailMain.mailsNum}} new</mat-card-subtitle>
+    </mat-card-header>
+  </div>
+  <div class="card-item">
+    <mat-list>
+      <mat-list-item *ngFor="let item of gmailMain.gmails">
+        <h4 mat-line>{{item.name}}</h4>
+        <p mat-line>{{item.type}}</p>
+        <p mat-line>{{item.description}}</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</mat-card>

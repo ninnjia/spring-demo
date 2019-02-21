@@ -1,0 +1,12 @@
+<div class="items-container"
+     (swipeleft)="swipe($event.type)"
+     (swiperight)="swipe($event.type)"
+>
+  <div class="item" *ngFor="let item of items">
+    <div class="item-left">
+      <img [src]="item.photoArr" width="50">
+    </div>
+    <div class="item-right">{{item.name}}</div>
+  </div>
+</div>
+

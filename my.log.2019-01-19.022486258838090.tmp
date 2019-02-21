@@ -1,0 +1,1179 @@
+2019-01-19 19:55:43.489  INFO 16969 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 16969 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 19:55:43.493 DEBUG 16969 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 19:55:43.494  INFO 16969 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 19:55:43.577  INFO 16969 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-19 19:55:43.578  INFO 16969 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-19 19:55:44.541  INFO 16969 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 19:55:44.564  INFO 16969 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-01-19 19:55:45.521  INFO 16969 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 19:55:45.593  INFO 16969 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 19:55:45.595  INFO 16969 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 19:55:45.608  INFO 16969 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-19 19:55:45.772  INFO 16969 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 19:55:45.773  INFO 16969 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2195 ms
+2019-01-19 19:55:46.328  INFO 16969 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 19:55:46.501  WARN 16969 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 19:55:46.994  INFO 16969 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 19:55:47.036  INFO 16969 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 19:55:47.039  INFO 16969 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 4.309 seconds (JVM running for 4.968)
+2019-01-19 19:55:57.500  INFO 16969 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-19 19:55:57.501  INFO 16969 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-19 19:55:57.506  INFO 16969 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-19 19:55:57.527 DEBUG 16969 --- [http-nio-8080-exec-1] com.xxy.controller.HelloController       : -------------------------
+2019-01-19 19:56:03.121 DEBUG 16969 --- [http-nio-8080-exec-3] com.xxy.controller.HelloController       : -------------------------
+2019-01-19 20:13:24.057 DEBUG 16969 --- [http-nio-8080-exec-6] com.xxy.controller.HelloController       : -------------------------
+2019-01-19 20:13:43.517  INFO 16969 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:13:44.198  INFO 16969 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:13:44.202  INFO 16969 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-19 20:13:44.311  INFO 16969 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:13:44.312  INFO 16969 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:13:44.312  INFO 16969 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:13:44.318  INFO 16969 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:13:44.319  INFO 16969 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 410 ms
+2019-01-19 20:13:44.393  INFO 16969 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:13:44.428  WARN 16969 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:13:44.458  INFO 16969 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:13:44.474  INFO 16969 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:13:44.477  INFO 16969 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:13:46.055  INFO 16969 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:13:48.115  INFO 17589 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-19 20:13:48.119  INFO 17589 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-19 20:13:49.233  INFO 17589 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:13:49.255  INFO 17589 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-01-19 20:13:50.209  INFO 17589 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:13:50.271  INFO 17589 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:13:50.272  INFO 17589 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:13:50.283  INFO 17589 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-19 20:13:50.439  INFO 17589 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:13:50.443  INFO 17589 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2323 ms
+2019-01-19 20:13:50.896  INFO 17589 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:13:51.044  WARN 17589 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:13:51.628  INFO 17589 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:13:51.686  INFO 17589 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:13:55.085  INFO 17589 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-19 20:13:55.085  INFO 17589 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-19 20:13:55.091  INFO 17589 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-01-19 20:14:41.091  INFO 17589 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:14:41.396  INFO 17589 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 17589 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:14:41.397 DEBUG 17589 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:14:41.398  INFO 17589 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:14:43.647  INFO 17799 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 17799 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:14:43.650 DEBUG 17799 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:14:43.651  INFO 17799 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:14:43.754  INFO 17799 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-19 20:14:43.754  INFO 17799 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-19 20:14:44.920  INFO 17799 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:14:44.943  INFO 17799 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-01-19 20:14:45.922  INFO 17799 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:14:45.977  INFO 17799 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:14:45.978  INFO 17799 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:14:45.991  INFO 17799 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-19 20:14:46.154  INFO 17799 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:14:46.155  INFO 17799 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2401 ms
+2019-01-19 20:14:46.587  INFO 17799 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:14:46.756  WARN 17799 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:14:47.064  INFO 17799 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:14:47.250  INFO 17799 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:14:47.254  INFO 17799 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 4.208 seconds (JVM running for 4.948)
+2019-01-19 20:15:00.875  INFO 17799 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-19 20:15:00.875  INFO 17799 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-19 20:15:00.882  INFO 17799 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-01-19 20:15:00.903 DEBUG 17799 --- [http-nio-8080-exec-2] com.xxy.controller.HelloController       : -------------------------
+2019-01-19 20:20:43.858  INFO 17799 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:20:44.196  INFO 17799 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 17799 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:20:44.197  INFO 17799 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:20:46.550  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:20:46.554  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:20:46.653  INFO 18058 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-19 20:20:46.653  INFO 18058 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-19 20:20:47.693  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:20:47.717  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-01-19 20:20:48.625  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:20:48.672  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:20:48.673  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:20:48.684  INFO 18058 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-19 20:20:48.795  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:20:48.796  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2142 ms
+2019-01-19 20:20:49.278  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:20:49.421  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:20:49.970  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:20:50.043  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:20:50.049  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 4.227 seconds (JVM running for 4.908)
+2019-01-19 20:20:56.777  INFO 18058 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-19 20:20:56.778  INFO 18058 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-19 20:20:56.790  INFO 18058 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-01-19 20:21:19.413  INFO 18058 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:21:19.617  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:21:19.618 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:21:19.618  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:21:19.818  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:21:19.823  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-19 20:21:19.927  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:21:19.928  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:21:19.929  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:21:19.935  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:21:19.935  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 307 ms
+2019-01-19 20:21:20.031  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:21:20.085  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:21:20.122  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:21:20.154  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:21:20.155  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.567 seconds (JVM running for 35.013)
+2019-01-19 20:21:20.158  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:21:43.551  INFO 18058 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:21:43.743  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:21:43.743 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:21:43.743  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:21:43.938  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:21:43.942  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-19 20:21:44.042  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:21:44.043  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:21:44.043  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:21:44.051  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:21:44.051  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 305 ms
+2019-01-19 20:21:44.136  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:21:44.168  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:21:44.194  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:21:44.211  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:21:44.211  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.493 seconds (JVM running for 59.07)
+2019-01-19 20:21:44.213  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:21:57.626  INFO 18058 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:21:57.803  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:21:57.804 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:21:57.804  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:21:57.945  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:21:57.948  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-19 20:21:58.038  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:21:58.039  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:21:58.039  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:21:58.045  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:21:58.045  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 239 ms
+2019-01-19 20:21:58.108  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:21:58.133  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:21:58.157  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:21:58.171  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:21:58.171  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.386 seconds (JVM running for 73.03)
+2019-01-19 20:21:58.174  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:04.573  INFO 18058 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:04.745  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:22:04.746 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:22:04.746  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:22:04.993  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:22:04.998  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-01-19 20:22:05.150  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:22:05.151  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:22:05.152  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:22:05.159  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:22:05.160  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 412 ms
+2019-01-19 20:22:05.281  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:05.358  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:22:05.416  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:22:05.454  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:22:05.455  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.738 seconds (JVM running for 80.313)
+2019-01-19 20:22:05.457  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:10.849  INFO 18058 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:11.129  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:22:11.129 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:22:11.130  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:22:11.463  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:22:11.473  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-01-19 20:22:11.591  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:22:11.596  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:22:11.597  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:22:11.607  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:22:11.608  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 475 ms
+2019-01-19 20:22:11.748  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:11.777  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:22:11.808  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:22:11.825  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:22:11.825  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.77 seconds (JVM running for 86.684)
+2019-01-19 20:22:11.827  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:18.231  INFO 18058 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:18.382  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:22:18.383 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:22:18.383  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:22:18.565  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:22:18.569  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-19 20:22:18.658  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:22:18.659  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:22:18.659  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:22:18.666  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:22:18.666  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 281 ms
+2019-01-19 20:22:18.747  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:18.782  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:22:18.813  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:22:18.833  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:22:18.833  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.472 seconds (JVM running for 93.692)
+2019-01-19 20:22:18.835  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:21.220  INFO 18058 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:21.380  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:22:21.380 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:22:21.381  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:22:21.516  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:22:21.519  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-01-19 20:22:21.588  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:22:21.590  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:22:21.590  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:22:21.598  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:22:21.599  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 217 ms
+2019-01-19 20:22:21.658  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:21.679  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:22:21.700  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:22:21.713  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:22:21.714  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.353 seconds (JVM running for 96.572)
+2019-01-19 20:22:21.716  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:27.124  INFO 18058 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:27.492  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:22:27.492 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:22:27.493  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:22:27.725  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:22:27.730  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-19 20:22:27.812  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:22:27.813  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:22:27.814  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:22:27.819  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:22:27.819  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 321 ms
+2019-01-19 20:22:27.925  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:27.954  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:22:27.984  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:22:28.003  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:22:28.003  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.552 seconds (JVM running for 102.862)
+2019-01-19 20:22:28.006  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:31.403  INFO 18058 --- [Thread-52] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:31.685  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+2019-01-19 20:22:31.686 DEBUG 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-01-19 20:22:31.686  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : No active profile set, falling back to default profiles: default
+2019-01-19 20:22:31.894  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-19 20:22:31.898  INFO 18058 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-19 20:22:31.967  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-19 20:22:31.968  INFO 18058 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-19 20:22:31.968  INFO 18058 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-19 20:22:31.973  INFO 18058 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-19 20:22:31.973  INFO 18058 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 284 ms
+2019-01-19 20:22:32.028  INFO 18058 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-19 20:22:32.048  WARN 18058 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-01-19 20:22:32.066  INFO 18058 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-19 20:22:32.079  INFO 18058 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-19 20:22:32.079  INFO 18058 --- [restartedMain] com.xxy.SpringDemoApplication            : Started SpringDemoApplication in 0.44 seconds (JVM running for 106.938)
+2019-01-19 20:22:32.081  INFO 18058 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-19 20:22:45.484  INFO 18058 --- [Thread-58] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 20:22:59,643DEBUG 2019-01-19 20:22:59,643INFO 2019-01-19 20:22:59,643INFO 2019-01-19 20:22:59,768INFO 2019-01-19 20:22:59,771INFO 2019-01-19 20:22:59,834INFO 2019-01-19 20:22:59,834INFO 2019-01-19 20:22:59,835INFO 2019-01-19 20:22:59,839INFO 2019-01-19 20:22:59,839INFO 2019-01-19 20:22:59,891WARN 2019-01-19 20:22:59,912INFO 2019-01-19 20:22:59,931INFO 2019-01-19 20:22:59,942INFO 2019-01-19 20:22:59,943INFO 2019-01-19 20:22:59,944INFO 2019-01-19 20:23:13,358INFO 2019-01-19 20:23:13,579 [restartedMain] c.x.SpringDemoApplicationDEBUG 2019-01-19 20:23:13,580 [restartedMain] c.x.SpringDemoApplicationINFO 2019-01-19 20:23:13,581 [restartedMain] c.x.SpringDemoApplicationINFO 2019-01-19 20:23:13,742 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegateINFO 2019-01-19 20:23:13,744 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegateINFO 2019-01-19 20:23:13,806 [restartedMain] o.s.b.w.e.t.TomcatWebServerINFO 2019-01-19 20:23:13,807 [restartedMain] o.a.c.c.StandardServiceINFO 2019-01-19 20:23:13,808 [restartedMain] o.a.c.c.StandardEngineINFO 2019-01-19 20:23:13,814 [restartedMain] o.a.c.c.C.[.[.[/]INFO 2019-01-19 20:23:13,815 [restartedMain] o.s.w.c.ContextLoaderINFO 2019-01-19 20:23:13,869 [restartedMain] o.s.s.c.ThreadPoolTaskExecutorWARN 2019-01-19 20:23:13,890 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfigurationINFO 2019-01-19 20:23:13,908 [restartedMain] o.s.b.d.a.OptionalLiveReloadServerINFO 2019-01-19 20:23:13,921 [restartedMain] o.s.b.w.e.t.TomcatWebServerINFO 2019-01-19 20:23:13,922 [restartedMain] c.x.SpringDemoApplicationINFO 2019-01-19 20:23:13,923 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListenerINFO 2019-01-19 20:23:17,316 [Thread-76] o.s.s.c.ThreadPoolTaskExecutorINFO 2019-01-19 20:23:17,490 [restartedMain] c.x.SpringDemoApplication.logStartingDEBUG 2019-01-19 20:23:17,490 [restartedMain] c.x.SpringDemoApplication.logStartingINFO 2019-01-19 20:23:17,490 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfoINFO 2019-01-19 20:23:17,625 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesInINFO 2019-01-19 20:23:17,628 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesInINFO 2019-01-19 20:23:17,711 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initializeINFO 2019-01-19 20:23:17,712 [restartedMain] o.a.c.c.StandardService.logINFO 2019-01-19 20:23:17,713 [restartedMain] o.a.c.c.StandardEngine.logINFO 2019-01-19 20:23:17,719 [restartedMain] o.a.c.c.C.[.[.[/].logINFO 2019-01-19 20:23:17,719 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContextINFO 2019-01-19 20:23:17,776 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initializeWARN 2019-01-19 20:23:17,797 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExistsINFO 2019-01-19 20:23:17,815 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServerINFO 2019-01-19 20:23:17,827 [restartedMain] o.s.b.w.e.t.TomcatWebServer.startINFO 2019-01-19 20:23:17,828 [restartedMain] c.x.SpringDemoApplication.logStartedINFO 2019-01-19 20:23:17,829 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEventINFO 2019-01-19 20:23:20,233 [Thread-82] o.s.s.c.ThreadPoolTaskExecutor.shutdownINFO 2019-01-19 20:23:20,563 [restartedMain] c.x.SpringDemoApplication.logStarting 50DEBUG 2019-01-19 20:23:20,565 [restartedMain] c.x.SpringDemoApplication.logStarting 53INFO 2019-01-19 20:23:20,565 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675INFO 2019-01-19 20:23:20,793 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126INFO 2019-01-19 20:23:20,798 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182INFO 2019-01-19 20:23:20,901 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90INFO 2019-01-19 20:23:20,903 [restartedMain] o.a.c.c.StandardService.log 173INFO 2019-01-19 20:23:20,903 [restartedMain] o.a.c.c.StandardEngine.log 173INFO 2019-01-19 20:23:20,914 [restartedMain] o.a.c.c.C.[.[.[/].log 173INFO 2019-01-19 20:23:20,915 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296INFO 2019-01-19 20:23:21,018 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171WARN 2019-01-19 20:23:21,047 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108INFO 2019-01-19 20:23:21,074 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57INFO 2019-01-19 20:23:21,094 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204INFO 2019-01-19 20:23:21,094 [restartedMain] c.x.SpringDemoApplication.logStarted 59INFO 2019-01-19 20:23:21,096 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56INFO 2019-01-19 20:23:23,482 [Thread-88] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208INFO 2019-01-19 20:23:23,610 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :DEBUG 2019-01-19 20:23:23,611 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :INFO 2019-01-19 20:23:23,611 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :INFO 2019-01-19 20:23:23,746 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :INFO 2019-01-19 20:23:23,750 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :INFO 2019-01-19 20:23:23,833 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :INFO 2019-01-19 20:23:23,834 [restartedMain] o.a.c.c.StandardService.log 173 :INFO 2019-01-19 20:23:23,835 [restartedMain] o.a.c.c.StandardEngine.log 173 :INFO 2019-01-19 20:23:23,842 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :INFO 2019-01-19 20:23:23,842 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :INFO 2019-01-19 20:23:23,916 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :WARN 2019-01-19 20:23:23,940 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :INFO 2019-01-19 20:23:23,970 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :INFO 2019-01-19 20:23:23,986 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :INFO 2019-01-19 20:23:23,987 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :INFO 2019-01-19 20:23:23,990 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :INFO 2019-01-19 20:23:29,381 [Thread-94] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :INFO 2019-01-19 20:23:29,580 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 18058 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 20:23:29,581 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 20:23:29,581 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 20:23:29,706 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 20:23:29,709 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 20:23:29,763 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 20:23:29,764 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 20:23:29,764 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 20:23:29,768 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 20:23:29,768 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 186 ms
+INFO 2019-01-19 20:23:29,818 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 20:23:29,839 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 20:23:29,859 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 20:23:29,871 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 20:23:29,872 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.307 seconds (JVM running for 164.73)
+INFO 2019-01-19 20:23:29,873 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 20:24:07,926 [Thread-105] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 20:24:10,009 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 20:24:10,013 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 20:24:10,014 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 20:24:10,085 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2019-01-19 20:24:10,085 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2019-01-19 20:24:11,004 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 20:24:11,031 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+INFO 2019-01-19 20:24:12,166 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 20:24:12,200 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 20:24:12,201 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 20:24:12,208 [restartedMain] o.a.c.c.AprLifecycleListener.log 173 :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+INFO 2019-01-19 20:24:12,290 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 20:24:12,290 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 2205 ms
+INFO 2019-01-19 20:24:12,646 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 20:24:12,756 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 20:24:13,316 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 20:24:13,420 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 20:24:13,427 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 3.909 seconds (JVM running for 4.566)
+INFO 2019-01-19 20:24:29,104 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2019-01-19 20:24:29,104 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 524 :Initializing Servlet 'dispatcherServlet'
+INFO 2019-01-19 20:24:29,110 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 546 :Completed initialization in 5 ms
+DEBUG 2019-01-19 20:24:29,133 [http-nio-8080-exec-1] c.x.c.HelloController.getTest 17 :-------------------------
+INFO 2019-01-19 23:05:10,233 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:05:15,388 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:05:15,389 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:05:15,390 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 23:05:15,658 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:05:15,670 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:05:15,929 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:05:15,931 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:05:15,931 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:05:15,940 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:05:15,940 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 543 ms
+INFO 2019-01-19 23:05:16,084 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:05:16,170 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:05:16,282 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:05:16,372 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:05:16,373 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 1.053 seconds (JVM running for 9199.437)
+INFO 2019-01-19 23:05:16,377 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 50 :Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ErrorMvcAutoConfiguration#basicErrorController:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) found beans of type 'org.springframework.boot.web.servlet.error.ErrorController' exceptionResolver (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+INFO 2019-01-19 23:05:27,701 [Thread-16] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:05:27,896 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:05:27,896 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:05:27,897 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 23:05:28,037 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:05:28,040 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:05:28,107 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:05:28,109 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:05:28,109 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:05:28,115 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:05:28,116 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 218 ms
+INFO 2019-01-19 23:05:28,175 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:05:28,201 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:05:28,225 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:05:28,238 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:05:28,239 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.363 seconds (JVM running for 9211.303)
+INFO 2019-01-19 23:05:28,241 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:05:33,638 [Thread-22] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:05:33,783 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:05:33,783 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:05:33,784 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 23:05:33,907 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:05:33,909 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:05:33,976 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:05:33,977 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:05:33,977 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:05:33,983 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:05:33,983 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 197 ms
+INFO 2019-01-19 23:05:34,037 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:05:34,060 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:05:34,081 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:05:34,094 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:05:34,095 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.332 seconds (JVM running for 9217.159)
+INFO 2019-01-19 23:05:34,097 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:12:20,604 [Thread-28] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:12:20,831 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:12:20,832 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:12:20,833 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 23:12:21,093 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:12:21,098 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:12:21,233 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:12:21,238 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:12:21,239 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:12:21,249 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:12:21,251 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 415 ms
+INFO 2019-01-19 23:12:21,355 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:12:21,402 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:12:21,457 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:12:21,483 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:12:21,484 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.693 seconds (JVM running for 9600.159)
+INFO 2019-01-19 23:12:21,487 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:13:07,933 [Thread-34] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:13:08,192 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:13:08,192 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:13:08,193 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 675 :No active profile set, falling back to default profiles: default
+INFO 2019-01-19 23:13:08,454 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:13:08,459 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:13:08,566 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:13:08,568 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:13:08,568 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:13:08,576 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:13:08,576 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 379 ms
+INFO 2019-01-19 23:13:08,667 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:13:08,698 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:13:08,727 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:13:08,742 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:13:08,743 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.623 seconds (JVM running for 9647.417)
+INFO 2019-01-19 23:13:08,744 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:13:11,133 [Thread-40] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:13:11,357 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:13:11,357 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:13:11,357 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: prod
+INFO 2019-01-19 23:13:11,513 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:13:11,516 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:13:11,617 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:13:11,619 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:13:11,619 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:13:11,628 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:13:11,628 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 269 ms
+INFO 2019-01-19 23:13:11,724 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:13:11,748 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:13:11,774 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:13:11,790 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:13:11,791 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.458 seconds (JVM running for 9650.466)
+INFO 2019-01-19 23:13:11,793 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:13:15,195 [Thread-46] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:13:15,531 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:13:15,532 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:13:15,533 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: prod
+INFO 2019-01-19 23:13:15,715 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:13:15,718 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:13:15,774 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:13:15,775 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:13:15,775 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:13:15,780 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:13:15,780 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 244 ms
+INFO 2019-01-19 23:13:15,836 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:13:15,861 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:13:15,881 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:13:15,895 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:13:15,896 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.401 seconds (JVM running for 9654.571)
+INFO 2019-01-19 23:13:15,898 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:13:25,295 [Thread-52] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:13:25,536 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:13:25,536 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:13:25,536 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: prod
+INFO 2019-01-19 23:13:25,660 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:13:25,663 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:13:25,718 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:13:25,719 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:13:25,719 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:13:25,724 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:13:25,724 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 186 ms
+INFO 2019-01-19 23:13:25,776 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:13:25,799 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:13:25,819 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:13:25,833 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:13:25,834 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.318 seconds (JVM running for 9664.509)
+INFO 2019-01-19 23:13:25,836 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:13:43,246 [Thread-58] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:13:43,561 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 19070 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+INFO 2019-01-19 23:13:43,562 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: prod
+INFO 2019-01-19 23:13:43,759 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:13:43,763 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:13:43,867 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:13:43,869 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:13:43,869 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:13:43,876 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:13:43,876 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 310 ms
+INFO 2019-01-19 23:13:43,961 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:13:43,999 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:13:44,053 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:13:44,091 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:13:44,092 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.576 seconds (JVM running for 9682.767)
+INFO 2019-01-19 23:13:44,094 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:13:55,495 [Thread-69] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:13:59,284 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 1993 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+INFO 2019-01-19 23:13:59,298 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: prod
+INFO 2019-01-19 23:13:59,402 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2019-01-19 23:13:59,403 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2019-01-19 23:14:00,474 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:14:00,511 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:14:01,464 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:14:01,517 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:14:01,518 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:14:01,533 [restartedMain] o.a.c.c.AprLifecycleListener.log 173 :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+INFO 2019-01-19 23:14:01,695 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:14:01,696 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 2293 ms
+INFO 2019-01-19 23:14:02,108 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:14:02,204 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:14:02,591 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:14:02,634 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:14:02,637 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 3.984 seconds (JVM running for 4.606)
+INFO 2019-01-19 23:14:10,644 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2019-01-19 23:14:10,644 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 524 :Initializing Servlet 'dispatcherServlet'
+INFO 2019-01-19 23:14:10,651 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 546 :Completed initialization in 7 ms
+INFO 2019-01-19 23:14:33,053 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:14:33,294 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 1993 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:14:33,294 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:14:33,295 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:14:33,469 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:14:33,473 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:14:33,569 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:14:33,571 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:14:33,571 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:14:33,576 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:14:33,576 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 279 ms
+INFO 2019-01-19 23:14:33,648 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:14:33,678 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:14:33,713 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:14:33,735 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:14:33,736 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.474 seconds (JVM running for 35.706)
+INFO 2019-01-19 23:14:33,739 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:14:39,226 [Thread-15] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:14:41,033 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:14:41,037 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:14:41,038 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:14:41,169 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2019-01-19 23:14:41,169 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2019-01-19 23:14:42,346 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:14:42,363 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:14:43,125 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:14:43,164 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:14:43,165 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:14:43,174 [restartedMain] o.a.c.c.AprLifecycleListener.log 173 :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+INFO 2019-01-19 23:14:43,269 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:14:43,269 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 2100 ms
+INFO 2019-01-19 23:14:43,627 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:14:43,782 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:14:44,497 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:14:44,603 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:14:44,612 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 4.108 seconds (JVM running for 4.745)
+INFO 2019-01-19 23:14:49,683 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2019-01-19 23:14:49,683 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 524 :Initializing Servlet 'dispatcherServlet'
+INFO 2019-01-19 23:14:49,689 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 546 :Completed initialization in 6 ms
+DEBUG 2019-01-19 23:14:49,711 [http-nio-8080-exec-1] c.x.c.HelloController.getTest 17 :-------------------------
+INFO 2019-01-19 23:30:47,247 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:30:47,660 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:30:47,661 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:30:47,662 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:30:47,971 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:30:47,979 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:30:48,130 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:30:48,133 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:30:48,133 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:30:48,146 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:30:48,147 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 481 ms
+INFO 2019-01-19 23:30:48,234 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:30:48,270 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:30:48,302 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:30:48,319 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:30:48,320 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.729 seconds (JVM running for 902.985)
+INFO 2019-01-19 23:30:48,322 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:30:56,732 [Thread-10] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:30:57,163 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:30:57,163 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:30:57,164 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:30:57,456 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:30:57,460 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:30:57,540 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:30:57,541 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:30:57,542 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:30:57,549 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:30:57,550 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 381 ms
+INFO 2019-01-19 23:30:57,624 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:30:57,652 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:30:57,695 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:30:57,731 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:30:57,732 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.621 seconds (JVM running for 912.397)
+INFO 2019-01-19 23:30:57,734 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:31:06,121 [Thread-16] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:31:06,384 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:06,385 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:06,385 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:31:06,619 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:31:06,624 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:31:06,835 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:31:06,837 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:31:06,837 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:31:06,849 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:31:06,849 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 461 ms
+INFO 2019-01-19 23:31:07,001 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:31:07,071 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:31:07,136 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:31:07,207 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:31:07,209 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.866 seconds (JVM running for 921.874)
+INFO 2019-01-19 23:31:07,213 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:31:22,983 [Thread-22] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:31:23,180 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:23,180 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:23,181 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:31:23,382 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:31:23,388 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:31:23,505 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:31:23,507 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:31:23,507 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:31:23,516 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:31:23,516 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 331 ms
+INFO 2019-01-19 23:31:23,634 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:31:23,698 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:31:23,764 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:31:23,865 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:31:23,866 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.73 seconds (JVM running for 938.531)
+INFO 2019-01-19 23:31:23,869 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:31:27,172 [Thread-28] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:31:27,290 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:27,291 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:27,291 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:31:27,414 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:31:27,417 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:31:27,483 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:31:27,484 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:31:27,484 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:31:27,491 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:31:27,492 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 199 ms
+INFO 2019-01-19 23:31:27,562 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:31:27,599 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:31:27,640 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:31:27,662 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:31:27,663 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.392 seconds (JVM running for 942.329)
+INFO 2019-01-19 23:31:27,665 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:31:38,063 [Thread-34] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:31:38,427 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:38,428 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:38,429 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+WARN 2019-01-19 23:31:38,451 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh 554 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.xxy.SpringDemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/xxy/service/HelloService.class] cannot be opened because it does not exist
+ERROR 2019-01-19 23:31:38,472 [restartedMain] o.s.b.SpringApplication.reportFailure 858 :Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.xxy.SpringDemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/xxy/service/HelloService.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:528) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at com.xxy.SpringDemoApplication.main(SpringDemoApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+Caused by: java.io.FileNotFoundException: class path resource [com/xxy/service/HelloService.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:51) ~[spring-core-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:88) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:75) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:685) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getInterfaces(ConfigurationClassParser.java:1011) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processInterfaces(ConfigurationClassParser.java:375) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:323) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:191) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 18 common frames omitted
+INFO 2019-01-19 23:31:45,323 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:45,324 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:45,324 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:31:45,656 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:31:45,662 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:31:45,803 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:31:45,805 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:31:45,805 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:31:45,814 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:31:45,814 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 488 ms
+INFO 2019-01-19 23:31:45,954 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:31:46,031 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:31:46,103 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:31:46,166 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:31:46,167 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.878 seconds (JVM running for 960.832)
+INFO 2019-01-19 23:31:46,170 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:31:50,526 [Thread-40] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:31:50,807 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:50,807 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:50,807 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:31:50,943 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:31:50,946 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:31:51,010 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:31:51,011 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:31:51,011 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:31:51,020 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:31:51,021 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 212 ms
+INFO 2019-01-19 23:31:51,163 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:31:51,191 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:31:51,226 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:31:51,259 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:31:51,261 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.477 seconds (JVM running for 965.927)
+INFO 2019-01-19 23:31:51,264 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:31:56,035 [Thread-48] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:31:56,241 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:31:56,242 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:31:56,242 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:31:56,527 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:31:56,537 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:31:56,691 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:31:56,692 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:31:56,693 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:31:56,708 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:31:56,709 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 462 ms
+INFO 2019-01-19 23:31:56,867 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:31:56,929 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:31:57,007 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:31:57,084 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:31:57,085 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.878 seconds (JVM running for 971.75)
+INFO 2019-01-19 23:31:57,088 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:32:25,454 [Thread-54] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:32:25,735 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:32:25,735 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:32:25,735 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:32:25,912 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:32:25,917 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:32:26,031 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:32:26,032 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:32:26,032 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:32:26,037 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:32:26,038 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 300 ms
+INFO 2019-01-19 23:32:26,107 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:32:26,140 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:32:26,171 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:32:26,210 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:32:26,211 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.527 seconds (JVM running for 1000.876)
+INFO 2019-01-19 23:32:26,213 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:33:25,642 [Thread-60] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:33:25,948 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:33:25,949 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:33:25,949 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:33:26,183 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:33:26,198 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:33:26,301 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:33:26,303 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:33:26,303 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:33:26,311 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:33:26,312 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 359 ms
+INFO 2019-01-19 23:33:26,430 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:33:26,493 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:33:26,593 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:33:26,668 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:33:26,669 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.762 seconds (JVM running for 1061.334)
+INFO 2019-01-19 23:33:26,671 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:33:28,012 [Thread-66] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:33:28,213 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:33:28,214 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:33:28,214 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:33:28,395 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:33:28,399 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:33:28,487 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:33:28,488 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:33:28,489 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:33:28,495 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:33:28,495 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 279 ms
+INFO 2019-01-19 23:33:28,591 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:33:28,648 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:33:28,687 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:33:28,792 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:33:28,793 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.599 seconds (JVM running for 1063.458)
+INFO 2019-01-19 23:33:28,796 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:33:33,496 [Thread-72] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:33:33,675 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:33:33,676 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:33:33,676 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:33:33,864 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:33:33,869 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:33:33,941 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:33:33,942 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:33:33,943 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:33:33,948 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:33:33,949 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 271 ms
+INFO 2019-01-19 23:33:34,023 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:33:34,063 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:33:34,095 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:33:34,191 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:33:34,192 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.549 seconds (JVM running for 1068.857)
+INFO 2019-01-19 23:33:34,195 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:33:47,518 [Thread-78] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:33:47,779 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:33:47,780 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:33:47,780 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:33:47,931 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:33:47,935 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:33:48,020 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:33:48,021 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:33:48,021 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:33:48,028 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:33:48,028 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 246 ms
+INFO 2019-01-19 23:33:48,122 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:33:48,167 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:33:48,205 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:33:48,238 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:33:48,239 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.484 seconds (JVM running for 1082.904)
+INFO 2019-01-19 23:33:48,241 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:33:58,644 [Thread-84] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:33:58,848 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:33:58,848 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:33:58,848 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:33:59,058 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:33:59,063 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:33:59,226 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:33:59,228 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:33:59,230 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:33:59,245 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:33:59,246 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 395 ms
+INFO 2019-01-19 23:33:59,370 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:33:59,411 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:33:59,445 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:33:59,570 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:33:59,571 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.765 seconds (JVM running for 1094.236)
+INFO 2019-01-19 23:33:59,573 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:34:58,904 [Thread-90] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:34:59,295 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:34:59,296 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:34:59,296 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:34:59,576 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:34:59,580 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:34:59,747 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:34:59,749 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:34:59,750 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:34:59,758 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:34:59,759 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 459 ms
+INFO 2019-01-19 23:34:59,865 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:34:59,893 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:34:59,924 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:34:59,937 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:34:59,937 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.698 seconds (JVM running for 1154.603)
+INFO 2019-01-19 23:34:59,939 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:35:09,877 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2019-01-19 23:35:09,881 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 524 :Initializing Servlet 'dispatcherServlet'
+INFO 2019-01-19 23:35:09,887 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet.initServletBean 546 :Completed initialization in 6 ms
+INFO 2019-01-19 23:35:58,330 [main] c.x.SpringDemoApplicationTests.logStarting 50 :Starting SpringDemoApplicationTests on xuxinying-ThinkPad-X250 with PID 8173 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:35:58,332 [main] c.x.SpringDemoApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:35:58,333 [main] c.x.SpringDemoApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:35:59,445 [main] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:35:59,488 [main] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:36:01,219 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:36:01,504 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:36:02,352 [main] c.x.SpringDemoApplicationTests.logStarted 59 :Started SpringDemoApplicationTests in 4.676 seconds (JVM running for 6.692)
+INFO 2019-01-19 23:36:02,770 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:47:07,079 [main] c.x.SpringDemoApplicationTests.logStarting 50 :Starting SpringDemoApplicationTests on xuxinying-ThinkPad-X250 with PID 9610 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:47:07,080 [main] c.x.SpringDemoApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:47:07,081 [main] c.x.SpringDemoApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+WARN 2019-01-19 23:47:08,396 [main] o.s.w.c.s.GenericWebApplicationContext.refresh 554 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2019-01-19 23:47:08,424 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 142 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2019-01-19 23:47:08,500 [main] o.s.b.d.LoggingFailureAnalysisReporter.report 42 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field helloService in com.xxy.controller.HelloController required a bean of type 'com.xxy.service.HelloService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xxy.service.HelloService' in your configuration.
+
+INFO 2019-01-19 23:47:08,561 [main] c.x.SpringDemoApplicationTests.logStarting 50 :Starting SpringDemoApplicationTests on xuxinying-ThinkPad-X250 with PID 9610 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:47:08,562 [main] c.x.SpringDemoApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:47:08,562 [main] c.x.SpringDemoApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+WARN 2019-01-19 23:47:08,863 [main] o.s.w.c.s.GenericWebApplicationContext.refresh 554 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2019-01-19 23:47:08,866 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 142 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2019-01-19 23:47:08,907 [main] o.s.b.d.LoggingFailureAnalysisReporter.report 42 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field helloService in com.xxy.controller.HelloController required a bean of type 'com.xxy.service.HelloService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xxy.service.HelloService' in your configuration.
+
+ERROR 2019-01-19 23:47:08,913 [main] o.s.t.c.TestContextManager.prepareTestInstance 250 :Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2aa3cd93] to prepare test instance [com.xxy.SpringDemoApplicationTests@2f112965]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1651) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 43 common frames omitted
+INFO 2019-01-19 23:48:54,703 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 10045 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:48:54,711 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:48:54,711 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+WARN 2019-01-19 23:48:56,558 [main] o.s.w.c.s.GenericWebApplicationContext.refresh 554 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2019-01-19 23:48:56,569 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 142 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2019-01-19 23:48:56,658 [main] o.s.b.d.LoggingFailureAnalysisReporter.report 42 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field helloService in com.xxy.controller.HelloController required a bean of type 'com.xxy.service.HelloService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xxy.service.HelloService' in your configuration.
+
+INFO 2019-01-19 23:48:56,707 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 10045 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:48:56,707 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:48:56,707 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+WARN 2019-01-19 23:48:57,037 [main] o.s.w.c.s.GenericWebApplicationContext.refresh 554 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+INFO 2019-01-19 23:48:57,039 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 142 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2019-01-19 23:48:57,075 [main] o.s.b.d.LoggingFailureAnalysisReporter.report 42 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field helloService in com.xxy.controller.HelloController required a bean of type 'com.xxy.service.HelloService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xxy.service.HelloService' in your configuration.
+
+ERROR 2019-01-19 23:48:57,081 [main] o.s.t.c.TestContextManager.prepareTestInstance 250 :Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ea37dbf] to prepare test instance [com.xxy.SpringControllerApplicationTests@1a04f701]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.2.RELEASE.jar:2.1.2.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xxy.service.HelloService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1651) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1210) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	... 43 common frames omitted
+INFO 2019-01-19 23:50:12,074 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 10188 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:50:12,076 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:50:12,078 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:50:15,124 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:50:15,467 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:50:15,634 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:50:15,635 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:50:15,653 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 16 ms
+INFO 2019-01-19 23:50:15,707 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 4.442 seconds (JVM running for 6.173)
+DEBUG 2019-01-19 23:50:15,797 [main] c.x.c.HelloController.getTest 22 :-------------------------
+INFO 2019-01-19 23:50:15,828 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:50:48,370 [Thread-96] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:50:48,654 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:50:48,654 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:50:48,655 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:50:48,863 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:50:48,867 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:50:48,979 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:50:48,981 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:50:48,981 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:50:48,996 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:50:48,996 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 338 ms
+INFO 2019-01-19 23:50:49,123 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:50:49,170 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:50:49,213 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:50:49,276 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:50:49,277 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.653 seconds (JVM running for 2103.022)
+INFO 2019-01-19 23:50:49,279 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:50:53,024 [Thread-102] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:50:53,358 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 2204 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:50:53,358 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:50:53,359 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:50:53,567 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-01-19 23:50:53,572 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+INFO 2019-01-19 23:50:53,677 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8080 (http)
+INFO 2019-01-19 23:50:53,679 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-01-19 23:50:53,679 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-01-19 23:50:53,687 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-01-19 23:50:53,687 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 325 ms
+INFO 2019-01-19 23:50:53,810 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:50:53,856 [restartedMain] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:50:53,908 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-01-19 23:50:53,938 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2019-01-19 23:50:53,939 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 0.606 seconds (JVM running for 2107.684)
+INFO 2019-01-19 23:50:53,941 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-01-19 23:51:00,961 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 10411 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:51:00,963 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:51:00,964 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:51:04,028 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:51:04,337 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:51:04,546 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:51:04,547 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:51:04,567 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 19 ms
+INFO 2019-01-19 23:51:04,628 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 4.538 seconds (JVM running for 6.165)
+INFO 2019-01-19 23:51:04,786 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:51:35,306 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 10571 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:51:35,308 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:51:35,308 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:51:40,476 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 10612 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:51:40,477 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:51:40,478 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:51:41,072 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:51:41,636 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:51:42,093 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:51:42,094 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:51:42,144 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 49 ms
+INFO 2019-01-19 23:51:42,320 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 8.017 seconds (JVM running for 9.792)
+INFO 2019-01-19 23:51:42,686 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:51:45,172 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:51:45,855 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:51:46,300 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:51:46,301 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:51:46,345 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 43 ms
+INFO 2019-01-19 23:51:46,452 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 7.164 seconds (JVM running for 10.143)
+INFO 2019-01-19 23:51:46,646 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:54:15,225 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 11065 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:54:15,227 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:54:15,228 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:54:18,748 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:54:19,132 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:54:19,369 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:54:19,369 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:54:19,395 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 25 ms
+INFO 2019-01-19 23:54:19,459 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 5.228 seconds (JVM running for 6.829)
+INFO 2019-01-19 23:54:19,691 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:55:22,727 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 11287 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:55:22,730 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:55:22,730 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:55:26,165 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:55:26,544 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:55:26,778 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:55:26,778 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:55:26,801 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 22 ms
+INFO 2019-01-19 23:55:26,865 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 5.156 seconds (JVM running for 6.866)
+INFO 2019-01-19 23:55:27,085 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:56:07,848 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 11449 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:56:07,850 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:56:07,850 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:56:10,325 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:56:10,609 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:56:10,850 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:56:10,851 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:56:10,878 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 26 ms
+INFO 2019-01-19 23:56:10,940 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 3.963 seconds (JVM running for 5.58)
+INFO 2019-01-19 23:56:11,101 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'
+INFO 2019-01-19 23:56:22,107 [main] c.x.SpringControllerApplicationTests.logStarting 50 :Starting SpringControllerApplicationTests on xuxinying-ThinkPad-X250 with PID 11562 (started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-01-19 23:56:22,108 [main] c.x.SpringControllerApplicationTests.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-01-19 23:56:22,109 [main] c.x.SpringControllerApplicationTests.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-01-19 23:56:24,861 [main] o.s.s.c.ThreadPoolTaskExecutor.initialize 171 :Initializing ExecutorService 'applicationTaskExecutor'
+WARN 2019-01-19 23:56:25,198 [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists 108 :Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+INFO 2019-01-19 23:56:25,437 [main] o.s.b.t.m.w.SpringBootMockServletContext.log 444 :Initializing Spring TestDispatcherServlet ''
+INFO 2019-01-19 23:56:25,438 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 524 :Initializing Servlet ''
+INFO 2019-01-19 23:56:25,462 [main] o.s.t.w.s.TestDispatcherServlet.initServletBean 546 :Completed initialization in 24 ms
+INFO 2019-01-19 23:56:25,531 [main] c.x.SpringControllerApplicationTests.logStarted 59 :Started SpringControllerApplicationTests in 4.283 seconds (JVM running for 5.934)
+INFO 2019-01-19 23:56:25,777 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor.shutdown 208 :Shutting down ExecutorService 'applicationTaskExecutor'

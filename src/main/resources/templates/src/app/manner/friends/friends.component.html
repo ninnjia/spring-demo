@@ -1,0 +1,22 @@
+<div class="friends-container"
+     (swipeleft)="swipe($event.type)"
+     (swiperight)="swipe($event.type)"
+>
+  <mat-accordion>
+    <mat-expansion-panel [expanded]="true"  >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Personal data
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-list>
+        <mat-list-item *ngFor="let item of friends">
+          <img matListAvatar [src]="item.photoArr" alt="...">
+          <h4 mat-line>{{item.name}}</h4>
+          <p mat-line>{{item.email}}</p>
+        </mat-list-item>
+      </mat-list>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+

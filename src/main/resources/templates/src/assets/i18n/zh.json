@@ -1,0 +1,43 @@
+{
+  "hello": "你好",
+  "help": "帮助",
+  "privacy": "隐私权",
+  "terms": "条款",
+  "phone-num": "手机号",
+  "email": "电子邮箱",
+  "person-login": "个人登录",
+  "login-registry": "登录/注册",
+  "use-account-login": "使用帐号登录",
+  "modify-password": "修改密码",
+  "next": "下一步",
+  "declaration-first": "连接一切,",
+  "declaration-second": "使计算无处不在",
+  "phone-format-warning": "手机号码格式不正确",
+  "phone-necessary-warning": "手机号码不能为空",
+  "email-format-warning": "电子邮箱格式不正确",
+  "email-necessary-warning": "电子邮箱不能为空",
+  "old-password-necessary-warning": "旧密码不能为空",
+  "old-password-format-warning": "旧密码格式不正确",
+  "new-password-necessary-warning": "新密码不能为空",
+  "new-password-format-warning": "新密码格式不正确",
+  "confirm-password-necessary-warning": "确认密码不能为空",
+  "confirm-password-format-warning": "确认密码格式不正确",
+  "two-password-not-match": "两次密码输入不一致",
+
+  "complete-password": "补全密码",
+  "modify-password": "修改密码",
+  "new-password":"新密码",
+  "old-password":"旧密码",
+  "confirm-password":"确认密码",
+  "back":"返回",
+  "modify":"修改",
+  "skip":"跳过",
+  "confirm":"确定",
+
+
+
+  "send-verify-code":"发送验证码",
+  "verify-code":"验证码"
+
+
+}

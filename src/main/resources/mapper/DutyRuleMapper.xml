@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xxy.mapper.DutyRuleMapper">
+  <resultMap id="BaseResultMap" type="com.xxy.entity.DutyRule">
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="RULE_NAME" jdbcType="CHAR" property="ruleName" />
+    <result column="RULE_DESC" jdbcType="CHAR" property="ruleDesc" />
+    <result column="SYSTEM_TYPE" jdbcType="TINYINT" property="systemType" />
+    <result column="BRANCH_ID" jdbcType="INTEGER" property="branchId" />
+    <result column="BRANCH_NAME" jdbcType="CHAR" property="branchName" />
+    <result column="CHECK_ITEM_ID" jdbcType="INTEGER" property="checkItemId" />
+    <result column="CHECK_ITEM_NAME" jdbcType="CHAR" property="checkItemName" />
+    <result column="CHECK_TYPE" jdbcType="TINYINT" property="checkType" />
+    <result column="CHECK_VALUE" jdbcType="VARCHAR" property="checkValue" />
+    <result column="TIME_INTERVAL" jdbcType="REAL" property="timeInterval" />
+    <result column="DEVICES" jdbcType="VARCHAR" property="devices" />
+    <result column="DATA_STATE" jdbcType="TINYINT" property="dataState" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="START_TIME" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    ID, RULE_NAME, RULE_DESC, SYSTEM_TYPE, BRANCH_ID, BRANCH_NAME, CHECK_ITEM_ID, CHECK_ITEM_NAME, 
+    CHECK_TYPE, CHECK_VALUE, TIME_INTERVAL, DEVICES, DATA_STATE, UPDATE_TIME, START_TIME, 
+    CREATE_TIME
+  </sql>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select * from DUTY_RULE;
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from DUTY_RULE
+    where ID = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from DUTY_RULE
+    where ID = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xxy.entity.DutyRule">
+    insert into DUTY_RULE (ID, RULE_NAME, RULE_DESC, 
+      SYSTEM_TYPE, BRANCH_ID, BRANCH_NAME, 
+      CHECK_ITEM_ID, CHECK_ITEM_NAME, CHECK_TYPE, 
+      CHECK_VALUE, TIME_INTERVAL, DEVICES, 
+      DATA_STATE, UPDATE_TIME, START_TIME, 
+      CREATE_TIME)
+    values (#{id,jdbcType=INTEGER}, #{ruleName,jdbcType=CHAR}, #{ruleDesc,jdbcType=CHAR}, 
+      #{systemType,jdbcType=TINYINT}, #{branchId,jdbcType=INTEGER}, #{branchName,jdbcType=CHAR}, 
+      #{checkItemId,jdbcType=INTEGER}, #{checkItemName,jdbcType=CHAR}, #{checkType,jdbcType=TINYINT}, 
+      #{checkValue,jdbcType=VARCHAR}, #{timeInterval,jdbcType=REAL}, #{devices,jdbcType=VARCHAR}, 
+      #{dataState,jdbcType=TINYINT}, #{updateTime,jdbcType=TIMESTAMP}, #{startTime,jdbcType=TIMESTAMP}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xxy.entity.DutyRule">
+    insert into DUTY_RULE
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="ruleName != null">
+        RULE_NAME,
+      </if>
+      <if test="ruleDesc != null">
+        RULE_DESC,
+      </if>
+      <if test="systemType != null">
+        SYSTEM_TYPE,
+      </if>
+      <if test="branchId != null">
+        BRANCH_ID,
+      </if>
+      <if test="branchName != null">
+        BRANCH_NAME,
+      </if>
+      <if test="checkItemId != null">
+        CHECK_ITEM_ID,
+      </if>
+      <if test="checkItemName != null">
+        CHECK_ITEM_NAME,
+      </if>
+      <if test="checkType != null">
+        CHECK_TYPE,
+      </if>
+      <if test="checkValue != null">
+        CHECK_VALUE,
+      </if>
+      <if test="timeInterval != null">
+        TIME_INTERVAL,
+      </if>
+      <if test="devices != null">
+        DEVICES,
+      </if>
+      <if test="dataState != null">
+        DATA_STATE,
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME,
+      </if>
+      <if test="startTime != null">
+        START_TIME,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="ruleName != null">
+        #{ruleName,jdbcType=CHAR},
+      </if>
+      <if test="ruleDesc != null">
+        #{ruleDesc,jdbcType=CHAR},
+      </if>
+      <if test="systemType != null">
+        #{systemType,jdbcType=TINYINT},
+      </if>
+      <if test="branchId != null">
+        #{branchId,jdbcType=INTEGER},
+      </if>
+      <if test="branchName != null">
+        #{branchName,jdbcType=CHAR},
+      </if>
+      <if test="checkItemId != null">
+        #{checkItemId,jdbcType=INTEGER},
+      </if>
+      <if test="checkItemName != null">
+        #{checkItemName,jdbcType=CHAR},
+      </if>
+      <if test="checkType != null">
+        #{checkType,jdbcType=TINYINT},
+      </if>
+      <if test="checkValue != null">
+        #{checkValue,jdbcType=VARCHAR},
+      </if>
+      <if test="timeInterval != null">
+        #{timeInterval,jdbcType=REAL},
+      </if>
+      <if test="devices != null">
+        #{devices,jdbcType=VARCHAR},
+      </if>
+      <if test="dataState != null">
+        #{dataState,jdbcType=TINYINT},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null">
+        #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xxy.entity.DutyRule">
+    update DUTY_RULE
+    <set>
+      <if test="ruleName != null">
+        RULE_NAME = #{ruleName,jdbcType=CHAR},
+      </if>
+      <if test="ruleDesc != null">
+        RULE_DESC = #{ruleDesc,jdbcType=CHAR},
+      </if>
+      <if test="systemType != null">
+        SYSTEM_TYPE = #{systemType,jdbcType=TINYINT},
+      </if>
+      <if test="branchId != null">
+        BRANCH_ID = #{branchId,jdbcType=INTEGER},
+      </if>
+      <if test="branchName != null">
+        BRANCH_NAME = #{branchName,jdbcType=CHAR},
+      </if>
+      <if test="checkItemId != null">
+        CHECK_ITEM_ID = #{checkItemId,jdbcType=INTEGER},
+      </if>
+      <if test="checkItemName != null">
+        CHECK_ITEM_NAME = #{checkItemName,jdbcType=CHAR},
+      </if>
+      <if test="checkType != null">
+        CHECK_TYPE = #{checkType,jdbcType=TINYINT},
+      </if>
+      <if test="checkValue != null">
+        CHECK_VALUE = #{checkValue,jdbcType=VARCHAR},
+      </if>
+      <if test="timeInterval != null">
+        TIME_INTERVAL = #{timeInterval,jdbcType=REAL},
+      </if>
+      <if test="devices != null">
+        DEVICES = #{devices,jdbcType=VARCHAR},
+      </if>
+      <if test="dataState != null">
+        DATA_STATE = #{dataState,jdbcType=TINYINT},
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null">
+        START_TIME = #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xxy.entity.DutyRule">
+    update DUTY_RULE
+    set RULE_NAME = #{ruleName,jdbcType=CHAR},
+      RULE_DESC = #{ruleDesc,jdbcType=CHAR},
+      SYSTEM_TYPE = #{systemType,jdbcType=TINYINT},
+      BRANCH_ID = #{branchId,jdbcType=INTEGER},
+      BRANCH_NAME = #{branchName,jdbcType=CHAR},
+      CHECK_ITEM_ID = #{checkItemId,jdbcType=INTEGER},
+      CHECK_ITEM_NAME = #{checkItemName,jdbcType=CHAR},
+      CHECK_TYPE = #{checkType,jdbcType=TINYINT},
+      CHECK_VALUE = #{checkValue,jdbcType=VARCHAR},
+      TIME_INTERVAL = #{timeInterval,jdbcType=REAL},
+      DEVICES = #{devices,jdbcType=VARCHAR},
+      DATA_STATE = #{dataState,jdbcType=TINYINT},
+      UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+      START_TIME = #{startTime,jdbcType=TIMESTAMP},
+      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP}
+    where ID = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

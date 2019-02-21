@@ -1,0 +1,15 @@
+<mat-card class="schedules-card">
+  <div class="card-title">
+    <h4 mat-line>Schedules</h4>
+    <p mat-line>{{scheduleMain.itemsNum}} items</p>
+  </div>
+  <div class="card-item">
+    <mat-list>
+      <mat-list-item *ngFor="let item of scheduleMain.schedules">
+        <img matListAvatar [src]="item.photoArr" alt="...">
+        <h4 mat-line>{{item.title}}</h4>
+        <p mat-line>{{item.timeArea}},{{item.personName}}</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</mat-card>

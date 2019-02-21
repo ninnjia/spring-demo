@@ -1,0 +1,29 @@
+<div class="account">
+  <mat-accordion class="main-color">
+    <mat-expansion-panel
+      [(expanded)]="accountExpanded"
+      class="main-color"
+      style="box-shadow: 0 0 0"
+    >
+      <mat-expansion-panel-header class="main-color" style="padding-left: 0px!important;">
+        <mat-card class="main-color" style="box-shadow: 0 0 0;">
+          <mat-card-header style="margin-top: 20px;">
+            <div mat-card-avatar>
+              <img [src]="activeAccount==null || activeAccount.photoArr" width="45" alt="">
+            </div>
+            <mat-card-title class="account-username" >{{activeAccount==null || activeAccount.username}}</mat-card-title>
+            <mat-card-subtitle class="account-email">{{activeAccount==null || activeAccount.email}}</mat-card-subtitle>
+          </mat-card-header>
+        </mat-card>
+      </mat-expansion-panel-header>
+      <mat-list>
+        <mat-list-item *ngFor="let account of accounts" (click)="changeAccount(account.id)">
+          <img matListAvatar [src]="account.photoArr" alt="...">
+          <h4 mat-line class="account-username">{{account.username}}</h4>
+          <p mat-line  class="account-email">{{account.email}}</p>
+        </mat-list-item>
+      </mat-list>
+      <button (click)="sendRedirect()"></button>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

@@ -1,0 +1,404 @@
+INFO 2019-02-21 13:15:34,188 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 13949 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-02-21 13:15:34,202 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-02-21 13:15:34,203 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-02-21 13:15:34,338 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2019-02-21 13:15:34,338 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2019-02-21 13:15:35,847 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-02-21 13:15:35,885 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+INFO 2019-02-21 13:15:36,558 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization 330 :Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b05eff4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2019-02-21 13:15:37,240 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8888 (http)
+INFO 2019-02-21 13:15:37,271 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-02-21 13:15:37,272 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-02-21 13:15:37,281 [restartedMain] o.a.c.c.AprLifecycleListener.log 173 :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+INFO 2019-02-21 13:15:37,384 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-02-21 13:15:37,384 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 3045 ms
+WARN 2019-02-21 13:15:37,641 [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh 554 :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'helloService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloServiceImpl': Unsatisfied dependency expressed through field 'dutyRuleMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dutyRuleMapper' defined in file [/home/xuxinying/study/springboot/spring-demo/target/classes/com/xxy/mapper/DutyRuleMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+INFO 2019-02-21 13:15:37,644 [restartedMain] o.a.c.c.StandardService.log 173 :Stopping service [Tomcat]
+INFO 2019-02-21 13:15:37,673 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage 142 :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+ERROR 2019-02-21 13:15:37,680 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter.report 42 :
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+INFO 2019-02-21 13:16:08,704 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 14131 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-02-21 13:16:08,708 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-02-21 13:16:08,709 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-02-21 13:16:08,826 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO 2019-02-21 13:16:08,826 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo 227 :For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO 2019-02-21 13:16:10,283 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-02-21 13:16:10,307 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+INFO 2019-02-21 13:16:10,718 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization 330 :Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$545c2673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2019-02-21 13:16:11,254 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8888 (http)
+INFO 2019-02-21 13:16:11,291 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-02-21 13:16:11,291 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-02-21 13:16:11,299 [restartedMain] o.a.c.c.AprLifecycleListener.log 173 :The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/home/xuxinying/Program/idea-IU-171.4424.56/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+INFO 2019-02-21 13:16:11,392 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-02-21 13:16:11,392 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 2565 ms
+DEBUG 2019-02-21 13:16:11,632 [restartedMain] c.z.h.HikariConfig.setDriverClassName 480 :Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1e424d5e
+INFO 2019-02-21 13:16:15,733 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-02-21 13:16:15,802 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8888 (http) with context path ''
+INFO 2019-02-21 13:16:15,810 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 8.185 seconds (JVM running for 9.096)
+INFO 2019-02-21 13:16:31,805 [http-nio-8888-exec-1] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2019-02-21 13:16:31,806 [http-nio-8888-exec-1] o.s.w.s.DispatcherServlet.initServletBean 524 :Initializing Servlet 'dispatcherServlet'
+INFO 2019-02-21 13:16:31,837 [http-nio-8888-exec-1] o.s.w.s.DispatcherServlet.initServletBean 546 :Completed initialization in 29 ms
+ERROR 2019-02-21 13:16:33,251 [http-nio-8888-exec-1] o.t.TemplateEngine.process 1136 :[THYMELEAF][http-nio-8888-exec-1] Exception processing template "list": Error resolving template [list], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [list], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 2019-02-21 13:16:33,269 [http-nio-8888-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [list], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [list], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+WARN 2019-02-21 13:16:34,059 [http-nio-8888-exec-2] o.s.w.s.PageNotFound.noHandlerFound 1248 :No mapping for GET /favicon.ico
+DEBUG 2019-02-21 13:16:38,565 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1020 :HikariPool-1 - configuration:
+DEBUG 2019-02-21 13:16:38,570 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :allowPoolSuspension.............false
+DEBUG 2019-02-21 13:16:38,571 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :autoCommit......................true
+DEBUG 2019-02-21 13:16:38,572 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :catalog.........................none
+DEBUG 2019-02-21 13:16:38,573 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :connectionInitSql...............none
+DEBUG 2019-02-21 13:16:38,573 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :connectionTestQuery.............none
+DEBUG 2019-02-21 13:16:38,574 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :connectionTimeout...............30000
+DEBUG 2019-02-21 13:16:38,574 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :dataSource......................none
+DEBUG 2019-02-21 13:16:38,574 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :dataSourceClassName.............none
+DEBUG 2019-02-21 13:16:38,575 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :dataSourceJNDI..................none
+DEBUG 2019-02-21 13:16:38,576 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :dataSourceProperties............{password=<masked>}
+DEBUG 2019-02-21 13:16:38,576 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :driverClassName................."com.mysql.jdbc.Driver"
+DEBUG 2019-02-21 13:16:38,576 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :healthCheckProperties...........{}
+DEBUG 2019-02-21 13:16:38,577 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :healthCheckRegistry.............none
+DEBUG 2019-02-21 13:16:38,577 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :idleTimeout.....................600000
+DEBUG 2019-02-21 13:16:38,577 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :initializationFailTimeout.......1
+DEBUG 2019-02-21 13:16:38,578 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :isolateInternalQueries..........false
+DEBUG 2019-02-21 13:16:38,580 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :jdbcUrl.........................jdbc:mysql://localhost:3306/patrol?useUnicode=true&characterEncoding=utf8
+DEBUG 2019-02-21 13:16:38,581 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :leakDetectionThreshold..........0
+DEBUG 2019-02-21 13:16:38,582 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :maxLifetime.....................1800000
+DEBUG 2019-02-21 13:16:38,585 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :maximumPoolSize.................10
+DEBUG 2019-02-21 13:16:38,586 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :metricRegistry..................none
+DEBUG 2019-02-21 13:16:38,586 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :metricsTrackerFactory...........none
+DEBUG 2019-02-21 13:16:38,587 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :minimumIdle.....................10
+DEBUG 2019-02-21 13:16:38,587 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :password........................<masked>
+DEBUG 2019-02-21 13:16:38,588 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :poolName........................"HikariPool-1"
+DEBUG 2019-02-21 13:16:38,590 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :readOnly........................false
+DEBUG 2019-02-21 13:16:38,591 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :registerMbeans..................false
+DEBUG 2019-02-21 13:16:38,591 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :scheduledExecutor...............none
+DEBUG 2019-02-21 13:16:38,591 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :schema..........................none
+DEBUG 2019-02-21 13:16:38,592 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :threadFactory...................internal
+DEBUG 2019-02-21 13:16:38,592 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :transactionIsolation............default
+DEBUG 2019-02-21 13:16:38,592 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :username........................"work"
+DEBUG 2019-02-21 13:16:38,593 [http-nio-8888-exec-3] c.z.h.HikariConfig.logConfiguration 1052 :validationTimeout...............5000
+INFO 2019-02-21 13:16:38,593 [http-nio-8888-exec-3] c.z.h.HikariDataSource.getConnection 110 :HikariPool-1 - Starting...
+WARN 2019-02-21 13:16:38,594 [http-nio-8888-exec-3] c.z.h.u.DriverDataSource.<init> 68 :Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+DEBUG 2019-02-21 13:16:38,595 [http-nio-8888-exec-3] c.z.h.u.DriverDataSource.<init> 75 :Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1e424d5e
+
+DEBUG 2019-02-21 13:16:38,848 [http-nio-8888-exec-3] c.z.h.p.HikariPool.checkFailFast 545 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4902910d
+INFO 2019-02-21 13:16:38,853 [http-nio-8888-exec-3] c.z.h.HikariDataSource.getConnection 123 :HikariPool-1 - Start completed.
+DEBUG 2019-02-21 13:16:38,869 [http-nio-8888-exec-3] c.x.m.D.selectAll.debug 145 :==>  Preparing: select * from DUTY_RULE; 
+DEBUG 2019-02-21 13:16:38,901 [http-nio-8888-exec-3] c.x.m.D.selectAll.debug 145 :==> Parameters: 
+DEBUG 2019-02-21 13:16:38,953 [HikariPool-1 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+DEBUG 2019-02-21 13:16:38,961 [http-nio-8888-exec-3] c.x.m.D.selectAll.debug 145 :<==      Total: 2
+DEBUG 2019-02-21 13:16:38,966 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2286cbd2
+ERROR 2019-02-21 13:16:38,968 [http-nio-8888-exec-3] o.t.TemplateEngine.process 1136 :[THYMELEAF][http-nio-8888-exec-3] Exception processing template "dutyRuleList": Error resolving template [dutyRuleList], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [dutyRuleList], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+ERROR 2019-02-21 13:16:38,971 [http-nio-8888-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet].log 175 :Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [dutyRuleList], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [dutyRuleList], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+DEBUG 2019-02-21 13:16:38,978 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63bbc1e9
+DEBUG 2019-02-21 13:16:38,996 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52926686
+DEBUG 2019-02-21 13:16:39,011 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3943ea6
+DEBUG 2019-02-21 13:16:39,030 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73f2a55f
+DEBUG 2019-02-21 13:16:39,044 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dac183
+DEBUG 2019-02-21 13:16:39,093 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1152cfb9
+DEBUG 2019-02-21 13:16:39,122 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@524e0f7e
+DEBUG 2019-02-21 13:16:39,159 [HikariPool-1 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b4b7e76
+DEBUG 2019-02-21 13:16:39,159 [HikariPool-1 connection adder] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:17:08,954 [HikariPool-1 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+INFO 2019-02-21 13:17:10,062 [Thread-6] c.z.h.HikariDataSource.close 350 :HikariPool-1 - Shutdown initiated...
+DEBUG 2019-02-21 13:17:10,063 [Thread-6] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:17:10,065 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4902910d: (connection evicted)
+DEBUG 2019-02-21 13:17:10,076 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2286cbd2: (connection evicted)
+DEBUG 2019-02-21 13:17:10,077 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63bbc1e9: (connection evicted)
+DEBUG 2019-02-21 13:17:10,078 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52926686: (connection evicted)
+DEBUG 2019-02-21 13:17:10,081 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3943ea6: (connection evicted)
+DEBUG 2019-02-21 13:17:10,082 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73f2a55f: (connection evicted)
+DEBUG 2019-02-21 13:17:10,082 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7dac183: (connection evicted)
+DEBUG 2019-02-21 13:17:10,083 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1152cfb9: (connection evicted)
+DEBUG 2019-02-21 13:17:10,083 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@524e0f7e: (connection evicted)
+DEBUG 2019-02-21 13:17:10,084 [HikariPool-1 connection closer] c.z.h.pool.PoolBase.quietlyCloseConnection 129 :HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3b4b7e76: (connection evicted)
+DEBUG 2019-02-21 13:17:10,084 [Thread-6] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+INFO 2019-02-21 13:17:10,085 [Thread-6] c.z.h.HikariDataSource.close 352 :HikariPool-1 - Shutdown completed.
+INFO 2019-02-21 13:17:10,501 [restartedMain] c.x.SpringDemoApplication.logStarting 50 :Starting SpringDemoApplication on xuxinying-ThinkPad-X250 with PID 14131 (/home/xuxinying/study/springboot/spring-demo/target/classes started by xuxinying in /home/xuxinying/study/springboot/spring-demo)
+DEBUG 2019-02-21 13:17:10,502 [restartedMain] c.x.SpringDemoApplication.logStarting 53 :Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+INFO 2019-02-21 13:17:10,502 [restartedMain] c.x.SpringDemoApplication.logStartupProfileInfo 679 :The following profiles are active: test
+INFO 2019-02-21 13:17:11,047 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 126 :Bootstrapping Spring Data repositories in DEFAULT mode.
+INFO 2019-02-21 13:17:11,055 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn 182 :Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+INFO 2019-02-21 13:17:11,124 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization 330 :Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$545c2673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO 2019-02-21 13:17:11,219 [restartedMain] o.s.b.w.e.t.TomcatWebServer.initialize 90 :Tomcat initialized with port(s): 8888 (http)
+INFO 2019-02-21 13:17:11,221 [restartedMain] o.a.c.c.StandardService.log 173 :Starting service [Tomcat]
+INFO 2019-02-21 13:17:11,222 [restartedMain] o.a.c.c.StandardEngine.log 173 :Starting Servlet engine: [Apache Tomcat/9.0.14]
+INFO 2019-02-21 13:17:11,239 [restartedMain] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring embedded WebApplicationContext
+INFO 2019-02-21 13:17:11,239 [restartedMain] o.s.w.c.ContextLoader.prepareWebApplicationContext 296 :Root WebApplicationContext: initialization completed in 732 ms
+DEBUG 2019-02-21 13:17:11,365 [restartedMain] c.z.h.HikariConfig.setDriverClassName 480 :Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@657f4ad0
+INFO 2019-02-21 13:17:12,245 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer.startServer 57 :LiveReload server is running on port 35729
+INFO 2019-02-21 13:17:12,276 [restartedMain] o.s.b.w.e.t.TomcatWebServer.start 204 :Tomcat started on port(s): 8888 (http) with context path ''
+INFO 2019-02-21 13:17:12,277 [restartedMain] c.x.SpringDemoApplication.logStarted 59 :Started SpringDemoApplication in 1.84 seconds (JVM running for 65.563)
+INFO 2019-02-21 13:17:12,280 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent 56 :Condition evaluation unchanged
+INFO 2019-02-21 13:17:15,160 [http-nio-8888-exec-1] o.a.c.c.C.[.[.[/].log 173 :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2019-02-21 13:17:15,163 [http-nio-8888-exec-1] o.s.w.s.DispatcherServlet.initServletBean 524 :Initializing Servlet 'dispatcherServlet'
+INFO 2019-02-21 13:17:15,178 [http-nio-8888-exec-1] o.s.w.s.DispatcherServlet.initServletBean 546 :Completed initialization in 15 ms
+DEBUG 2019-02-21 13:17:15,180 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1020 :HikariPool-2 - configuration:
+DEBUG 2019-02-21 13:17:15,182 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :allowPoolSuspension.............false
+DEBUG 2019-02-21 13:17:15,182 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :autoCommit......................true
+DEBUG 2019-02-21 13:17:15,182 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :catalog.........................none
+DEBUG 2019-02-21 13:17:15,183 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :connectionInitSql...............none
+DEBUG 2019-02-21 13:17:15,184 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :connectionTestQuery.............none
+DEBUG 2019-02-21 13:17:15,185 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :connectionTimeout...............30000
+DEBUG 2019-02-21 13:17:15,186 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :dataSource......................none
+DEBUG 2019-02-21 13:17:15,186 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :dataSourceClassName.............none
+DEBUG 2019-02-21 13:17:15,187 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :dataSourceJNDI..................none
+DEBUG 2019-02-21 13:17:15,187 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :dataSourceProperties............{password=<masked>}
+DEBUG 2019-02-21 13:17:15,187 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :driverClassName................."com.mysql.jdbc.Driver"
+DEBUG 2019-02-21 13:17:15,188 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :healthCheckProperties...........{}
+DEBUG 2019-02-21 13:17:15,188 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :healthCheckRegistry.............none
+DEBUG 2019-02-21 13:17:15,190 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :idleTimeout.....................600000
+DEBUG 2019-02-21 13:17:15,191 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :initializationFailTimeout.......1
+DEBUG 2019-02-21 13:17:15,192 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :isolateInternalQueries..........false
+DEBUG 2019-02-21 13:17:15,194 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :jdbcUrl.........................jdbc:mysql://localhost:3306/patrol?useUnicode=true&characterEncoding=utf8
+DEBUG 2019-02-21 13:17:15,219 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :leakDetectionThreshold..........0
+DEBUG 2019-02-21 13:17:15,220 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :maxLifetime.....................1800000
+DEBUG 2019-02-21 13:17:15,220 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :maximumPoolSize.................10
+DEBUG 2019-02-21 13:17:15,221 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :metricRegistry..................none
+DEBUG 2019-02-21 13:17:15,221 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :metricsTrackerFactory...........none
+DEBUG 2019-02-21 13:17:15,221 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :minimumIdle.....................10
+DEBUG 2019-02-21 13:17:15,221 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :password........................<masked>
+DEBUG 2019-02-21 13:17:15,222 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :poolName........................"HikariPool-2"
+DEBUG 2019-02-21 13:17:15,222 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :readOnly........................false
+DEBUG 2019-02-21 13:17:15,222 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :registerMbeans..................false
+DEBUG 2019-02-21 13:17:15,222 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :scheduledExecutor...............none
+DEBUG 2019-02-21 13:17:15,223 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :schema..........................none
+DEBUG 2019-02-21 13:17:15,223 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :threadFactory...................internal
+DEBUG 2019-02-21 13:17:15,224 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :transactionIsolation............default
+DEBUG 2019-02-21 13:17:15,225 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :username........................"work"
+DEBUG 2019-02-21 13:17:15,225 [http-nio-8888-exec-1] c.z.h.HikariConfig.logConfiguration 1052 :validationTimeout...............5000
+INFO 2019-02-21 13:17:15,225 [http-nio-8888-exec-1] c.z.h.HikariDataSource.getConnection 110 :HikariPool-2 - Starting...
+WARN 2019-02-21 13:17:15,226 [http-nio-8888-exec-1] c.z.h.u.DriverDataSource.<init> 68 :Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+DEBUG 2019-02-21 13:17:15,226 [http-nio-8888-exec-1] c.z.h.u.DriverDataSource.<init> 75 :Driver class com.mysql.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@657f4ad0
+
+DEBUG 2019-02-21 13:17:15,293 [http-nio-8888-exec-1] c.z.h.p.HikariPool.checkFailFast 545 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15795125
+INFO 2019-02-21 13:17:15,293 [http-nio-8888-exec-1] c.z.h.HikariDataSource.getConnection 123 :HikariPool-2 - Start completed.
+DEBUG 2019-02-21 13:17:15,294 [http-nio-8888-exec-1] c.x.m.D.selectAll.debug 145 :==>  Preparing: select * from DUTY_RULE; 
+DEBUG 2019-02-21 13:17:15,294 [http-nio-8888-exec-1] c.x.m.D.selectAll.debug 145 :==> Parameters: 
+DEBUG 2019-02-21 13:17:15,328 [http-nio-8888-exec-1] c.x.m.D.selectAll.debug 145 :<==      Total: 2
+DEBUG 2019-02-21 13:17:15,393 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
+DEBUG 2019-02-21 13:17:15,409 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@660f8be3
+DEBUG 2019-02-21 13:17:15,421 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@273281d8
+DEBUG 2019-02-21 13:17:15,443 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@165fe37e
+DEBUG 2019-02-21 13:17:15,456 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@471d7e97
+DEBUG 2019-02-21 13:17:15,469 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f96e790
+DEBUG 2019-02-21 13:17:15,479 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c68ff16
+DEBUG 2019-02-21 13:17:15,488 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1856ea9d
+DEBUG 2019-02-21 13:17:15,497 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e8a091e
+DEBUG 2019-02-21 13:17:15,512 [HikariPool-2 connection adder] c.z.h.p.HikariPool.call 709 :HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60990597
+DEBUG 2019-02-21 13:17:15,513 [HikariPool-2 connection adder] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - After adding stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:17:45,394 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:18:15,395 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:18:45,403 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:19:15,403 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:19:45,404 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:20:15,405 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:20:45,406 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:21:15,406 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:21:45,407 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:22:15,407 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:22:45,408 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:23:15,422 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:23:45,424 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:24:15,426 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:24:45,427 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:25:15,428 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:25:45,430 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:25:51,164 [http-nio-8888-exec-4] c.x.m.D.selectAll.debug 145 :==>  Preparing: select * from DUTY_RULE; 
+DEBUG 2019-02-21 13:25:51,164 [http-nio-8888-exec-4] c.x.m.D.selectAll.debug 145 :==> Parameters: 
+DEBUG 2019-02-21 13:25:51,230 [http-nio-8888-exec-4] c.x.m.D.selectAll.debug 145 :<==      Total: 2
+DEBUG 2019-02-21 13:26:15,430 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:26:45,432 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:27:15,433 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:27:45,434 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:28:15,435 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)
+DEBUG 2019-02-21 13:28:45,435 [HikariPool-2 housekeeper] c.z.h.p.HikariPool.logPoolState 411 :HikariPool-2 - Pool stats (total=10, active=0, idle=10, waiting=0)

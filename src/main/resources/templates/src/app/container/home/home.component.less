@@ -1,0 +1,101 @@
+
+.anicel-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+  .anicel-card {
+    width: 100%;
+    padding-top:32px;
+    background: #272727;
+    color: #FFFFFF;
+
+    .card-title{
+      color: #FFFFFF;
+      font-size: x-large;
+      font-weight: 500;
+    }
+    .card-item{
+      h4{
+        color: #FFF !important;
+        font-weight: 400;
+        padding-left:16px;
+      }
+      p{
+        color: #FFF !important;
+        font-size: small;
+        padding-left:16px;
+
+      }
+      //display: flex;
+      //flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .card-item-list{
+      width: 100%;
+      .mat-list-item-content{
+        padding: 0!important;
+      }
+    }
+    .anicel-echart{
+      width:100%;
+      //width:900px;
+      height:300px !important;
+      color: #FFFFFF;
+    }
+  }
+
+
+  .approvals-card{
+    padding-top:16px;
+    width: 100%;
+  }
+  .schedule-todo-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .schedules-card{
+      width: 100%;
+      padding-top:16px;
+      @media screen and (min-width: 600px) {
+        width: 49.2%;
+      }
+    }
+    .todo-card{
+      width: 100%;
+      padding-top:16px;
+      @media screen and (min-width: 600px) {
+        width: 49.2%;
+      }
+    }
+  }
+
+  .gmail-briefing-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .gmail-card{
+      width: 100%;
+      padding-top:16px;
+      @media screen and (min-width: 600px) {
+        width: 49.2%;
+      }
+    }
+    .briefing-card{
+      width: 100%;
+      padding-top:16px;
+      @media screen and (min-width: 600px) {
+        width: 49.2%;
+      }
+    }
+  }
+}
+
+

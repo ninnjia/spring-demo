@@ -1,0 +1,81 @@
+<div class="anicel-container">
+  <mat-card #anicel class="anicel-card">
+    <div class="card-title">General</div>
+    <div class="card-item">
+      <mat-list class="mat-list">
+        <mat-grid-list [cols]="(isHandset$ | async) ? '1' : '2'" rowHeight="80px">
+          <mat-grid-tile
+            colspan=1
+            rowspan=1
+          >
+            <mat-list-item>
+              <h4 mat-line>{{generalMain.approvalNum}} Processes</h4>
+              <p mat-line>Approval</p>
+            </mat-list-item>
+          </mat-grid-tile>
+          <mat-grid-tile
+            colspan=1
+            rowspan=1
+          >
+            <mat-list-item>
+              <h4 mat-line>{{generalMain.scheduleNum}} Schedules</h4>
+              <p mat-line>Schedule</p>
+            </mat-list-item>
+          </mat-grid-tile>
+          <mat-grid-tile
+            colspan=1
+            rowspan=1
+          >
+            <mat-list-item>
+              <h4 mat-line>{{generalMain.todoNum}} Items</h4>
+              <p mat-line>TODO</p>
+            </mat-list-item>
+          </mat-grid-tile>
+          <mat-grid-tile
+            colspan=1
+            rowspan=1
+          >
+            <mat-list-item>
+              <h4 mat-line>{{generalMain.gmailNum}} New Mails</h4>
+              <p mat-line>Gmail</p>
+            </mat-list-item>
+          </mat-grid-tile>
+          <mat-grid-tile
+            colspan=1
+            rowspan=1
+          >
+            <mat-list-item>
+              <h4 mat-line>{{generalMain.jiraNum}} New Assigned Issues</h4>
+              <p mat-line>Jira</p>
+            </mat-list-item>
+          </mat-grid-tile>
+          <mat-grid-tile
+            colspan=1
+            rowspan=1
+          >
+            <mat-list-item>
+              <h4 mat-line>{{generalMain.calendarNum}} Comming Events</h4>
+              <p mat-line>Calendar</p>
+            </mat-list-item>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </mat-list>
+    </div>
+    <div>
+      <highcharts-chart
+        [Highcharts]="Highcharts"
+        [options]="optFromInput"
+      ></highcharts-chart>
+    </div>
+  </mat-card>
+  <app-approvals class="approvals-card" [approvalMain]="currentApprovalsMainState$ | async"></app-approvals>
+  <div class="schedule-todo-card">
+    <app-schedules class="schedules-card" [scheduleMain]="currentSchedulesMainState$ | async"></app-schedules>
+    <app-todo class="todo-card" [todoMain]="currentTodosMainState$ | async"></app-todo>
+  </div>
+  <div class="gmail-briefing-card">
+    <app-gmail class="gmail-card" [gmailMain]="currentGmailsMainState$ | async"></app-gmail>
+    <app-briefing class="briefing-card" [briefingMain]="currentBriefingsMainState$ | async"></app-briefing>
+  </div>
+</div>
+
